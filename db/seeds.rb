@@ -8,7 +8,14 @@
 
 
 Workout.destroy_all
+Exercise.destroy_all
 
-workout1 = Workout.create(name: "Strength")
-workout2 = Workout.create(name: "Back")
-workout3 = Workout.create(name: "Legs")
+strength = Workout.create(name: "Strength")
+back = Workout.create(name: "Back")
+legs = Workout.create(name: "Legs")
+
+Exercise.create(name: "squats", sets: 3, repetitions: 12, time: 20, workout: legs)
+Exercise.create(name: "Push Ups", sets: 5, repetitions: 10, time: 45, workout: strength)
+Exercise.create(name: "back rows", sets: 3, repetitions: 8, time: 25, workout: back)
+
+
