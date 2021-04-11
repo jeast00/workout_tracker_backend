@@ -5,4 +5,20 @@ class WorkoutsController < ApplicationController
         render json: Workout.all.map { |workout| WorkoutSerializer.new(workout) }
     end
 
+    def create
+        # byebug
+        workout = Workout.new(workout_params)
+
+        if workout.save
+            render json: WorkoutSerializer.new(workout)
+        end
+    end
+
+
+    private
+
+    def workout_params
+        params.require(:workout).permit(:name)
+    end
+
 end
