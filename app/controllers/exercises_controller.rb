@@ -1,6 +1,7 @@
 class ExercisesController < ApplicationController
 
     def index
-        byebug
+        # byebug
+        render json: Exercise.all
     end
 end
