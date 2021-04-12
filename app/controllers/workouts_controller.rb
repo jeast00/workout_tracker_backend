@@ -5,6 +5,11 @@ class WorkoutsController < ApplicationController
         render json: Workout.all.map { |workout| WorkoutSerializer.new(workout) }
     end
 
+    def show
+        workout = Workout.find_by_id(params[:id])
+        render json: workout
+    end
+
     def create
         # byebug
         workout = Workout.new(workout_params)
