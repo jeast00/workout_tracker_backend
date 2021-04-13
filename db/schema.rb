@@ -29,5 +29,4 @@ ActiveRecord::Schema.define(version: 2021_04_03_174203) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "exercises", "workouts"
 end
