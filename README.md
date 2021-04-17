@@ -16,7 +16,7 @@ The usage for this application is strictly html (index.html).  The backend will 
 
 The index.html page will be located where you cloned the repository.  You will need to open that file on your web browser of choice (I would prefer Goggle Chrome).
 
-Application is simple and basic.  Add the name of the workout and then the user can add the name of the exercise, sets, repetitions, and time completed.  
+Add the name of the workout and then the user can add the name of the exercise, sets, repetitions, and time completed.  The user can also delete the entire workout and enter again.
 
 
 ## Contributing
