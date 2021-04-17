@@ -1,24 +1,32 @@
-# README
+# Workout Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Workout Tracker is an application to track your workouts.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+There will be two repositories needed for this program; workout_tracker_backend and workout_tracker_frontend.  The frontend javascript client repository will be found here:
 
-* System dependencies
+https://github.com/jeast00/workout_tracker_frontend
 
-* Configuration
+Once both repositories have been cloned, use your favorite IDE and pull up the terminal to load both repos.  
 
-* Database creation
+## Usage
 
-* Database initialization
+The usage for this application is strictly html (index.html).  The backend will need the rails server command in the terminal.  
 
-* How to run the test suite
+The index.html page will be located where you cloned the repository.  You will need to open that file on your web browser of choice (I would prefer Goggle Chrome).
 
-* Services (job queues, cache servers, search engines, etc.)
+Application is simple and basic.  Add the name of the workout and then the user can add the name of the exercise, sets, repetitions, and time completed.  
 
-* Deployment instructions
 
-* ...
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+There are currently no tests to run.
+
+## License
+License can be found in workout_tracker_backend repo under LICENSE.txt
+
+
