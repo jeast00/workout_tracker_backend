@@ -13,6 +13,12 @@ class ExercisesController < ApplicationController
         end
     end
 
+    def destroy
+        exercise = Exercise.find_by_id(params[:id])
+        exercise.destroy
+        render json: exercise
+    end
+
 
     private 
 
